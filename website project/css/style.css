@@ -1,0 +1,124 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.center-block-main{
+	max-width: 1500px;
+	margin: 0 auto;
+
+}
+
+.logo{
+  float: left;
+}
+
+.contacts{
+  float: right;
+}
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;}
+.header-top{
+  padding:30px 0;
+  border-bottom: 1px solid black;
+}
+.contacts{
+  float: right;
+}
+.contacts p{
+  float: left; font-weight: 600;
+}
+.header-busket{
+  border: 1px solid #eeeeee;
+  padding: 7px 25px;
+  margin-left: 20px;
+}
+.header-phone{
+  padding-top: 8px;
+}
+.contacts p img{
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.header-busket a{
+    color: 1FEFEC;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.header-busket a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.header-bottom {
+
+  padding: 10px 0;
+}
+
+.menu{
+  float: left;
+}
+
+.menu li{
+  list-style-type: none;
+  float: left;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+.menu li a{
+  text-decoration: none;
+  color:blue;}
+
+  .menu li a:hover{
+    text-decoration: underline;
+    color:green;
+}
+.search-block{
+  float: left;
+  margin-top: -3px;
+
+}
+.search-btn{
+  float: left;
+  margin: 5px 5px 0 0;
+
+}
+.search{
+  border:none;
+}
+.slider{
+	width: 400px;
+  margin-top: 40px;
+  padding-left: 750px;
+}
+
+
+.block-3-main{
+}
+.block-3-main article{
+  width:31.6%;
+  float:left;
+  margin-left: 2.6%;
+}
+.block-3-main article:first-child{
+  margin-left: 0;
+}
+.block-3-main article img{
+  display: block;
+  margin: 0 auto 20px  auto;
+}
+.block-3-main article h2{
+  padding-left: 60px;
+  margin-bottom: 20px;
+
+}
+
+
+
+.block-3-main article p{
+  font-size: 1em;
+
+}
